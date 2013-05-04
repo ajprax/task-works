@@ -1,5 +1,6 @@
 CREATE TABLE tasks (
-  id INT NOT NULL,
+  id INT NOT NULL AUTO_INCREMENT,
+  creation_date DATETIME NOT NULL,
   text TEXT,
   PRIMARY KEY (id)
 )
